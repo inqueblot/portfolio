@@ -1,24 +1,25 @@
 import React from "react";
-import Image from "../../public/"
+import Image from "../images/DSC_0305.jpg"
+import "./index.css"
 
 
 function Index() {
     return (
-        <div className="container">
+        <div>
             <div>
                 <h1>About Me</h1>
 
             </div>
             <hr />
             <div className="row">
-                <img src={Image} alt="average white guy" />
+                <img src={Image} className="profilePic" alt="average white guy" />
                 <ul>
                     <li>Minneapolis, MN</li>
                     <li>
                         <a href="mailto:notminebydesign@gmail.com">notminebydesign@gmail.com</a>
                     </li>
                     <li>
-                        <a href="https://github.com/inqueblot/protofolio" target="_blank" rel="noreferrer">github.com/inqueblot/protofolio</a>
+                        <a href="https://github.com/inqueblot/protofolio" target="_blank" rel="noreferrer">github.com/inqueblot</a>
                     </li>
                     <li>
                         <a href="Assets/Resume 2020.pdf" target="_blank">Resume</a>
